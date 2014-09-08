@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package>
+  <name>wp_theme_bluescale_2013</name>
+  <version>1.0.1</version>
+  <stability>stable</stability>
+  <license uri="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</license>
+  <channel>community</channel>
+  <extends/>
+  <summary>Magento Theme - Bluescale 2013 (Web-Experiment.Info)</summary>
+  <description>Magento Theme - Bluescale 2013 (Web-Experiment.Info)</description>
+  <notes>Magento Theme - Bluescale 2013 (Web-Experiment.Info)</notes>
+  <authors>
+    <author>
+      <name>WebAndPeople</name>
+      <user>WebAndPeople</user>
+      <email>design@webandpeople.com</email>
+    </author>
+    <author>
+      <name>webandpeople</name>
+      <user>webandpeople</user>
+      <email>ernazar@webandpeople.com</email>
+    </author>
+  </authors>
+  <date>2013-06-04</date>
+  <time>22:18:38</time>
+  <contents>
+    <target name="mageweb">
+      <dir name="app">
+        <dir name="code">
+          <dir name="local">
+            <dir name="Mage">
+              <dir name="Catalog">
+                <dir name="Block">
+                  <dir name="Product">
+                    <file name="Manufacturer.php" hash="13357297bdfd124e2359fad64204d7d5"/>
+                    <file name="Popular.php" hash="83adaf7c291ff7c363cdcd9be612fc30"/>
+                  </dir>
+                </dir>
+              </dir>
+            </dir>
+            <dir name="WP">
+              <dir name="ThemeBluescale">
+                <dir name="Block">
+                  <file name="About.php" hash="b4548f671371bd14006f7937e0f512cf"/>
+                </dir>
+                <dir name="Helper">
+                  <file name="Data.php" hash="acedb7d4d692ba7e95ce31c611d59e1f"/>
+                </dir>
+                <dir name="etc">
+                  <file name="config.xml" hash="c81a8ecbe45ee8e7a6f4bb80be78525c"/>
+                  <file name="system.xml" hash="105efea76894c7162b7fd0917d3bd490"/>
+                </dir>
+              </dir>
+            </dir>
+          </dir>
+        </dir>
+        <dir name="design">
+          <dir name="frontend">
+            <dir name="default">
+              <dir name="bluescale">
+                <dir name="etc">
+                  <file name="widget.xml" hash="3b4e988a2ba19946240c8bfad68e30ed"/>
+                </dir>
+                <dir name="layout">
+                  <file name="local.xml" hash="0d4c15fc030b52ea6f1a532b7ebe3ffa"/>
+                  <file name="quickcontact.xml" hash="4c50583ec73d9385d78d5ee3de532565"/>
+                </dir>
+                <dir name="locale">
+                  <dir name="da_DK">
+                    <file name="translate.csv" hash="e8077d2fc03d4301680c3e00bfc18296"/>
+                  </dir>
+                  <dir name="en_US">
+                    <file name="translate.csv" hash="4eb6e600e7c8e310e18dd8711da69a0f"/>
+                  </dir>
+                  <dir name="ru_RU">
+                    <file name="translate.csv" hash="bdcf53d8641826099ee8e8757755a8c0"/>
+                  </dir>
+                </dir>
+                <dir name="template">
+                  <dir name="callouts">
+                    <file name="left_col.phtml" hash="891e4d3203d280297849028f4a28def1"/>
+                    <file name="right_col.phtml" hash="891e4d3203d280297849028f4a28def1"/>
+                  </dir>
+                  <dir name="catalog">
+                    <dir name="navigation">
+                      <file name="top.phtml" hash="b909491c0f7ac8f1cd7d39e3aba045d1"/>
+                    </dir>
+                    <dir name="product">
+                      <dir name="compare">
+                        <file name="sidebar.phtml" hash="7bcfeb324b4fc2c831ebafcd10ab4327"/>
+                      </dir>
+                      <file name="home_full.phtml" hash="4f3eb3fdce554a69182fe538bdb293df"/>
+                      <file name="home_rating.phtml" hash="df65e79c20e63da50bbc24681ea09fa8"/>
+                      <file name="home_short.phtml" hash="39cc46d954a395fdbe240603c952471e"/>
+                      <dir name="list">
+                        <file name="upsell.phtml" hash="13e4a110167fb71070d6da81b363bbc7"/>
+                      </dir>
+                      <file name="list.phtml" hash="ec5f457275ff54e6cd41b26fd568d565"/>
+                      <file name="popular.phtml" hash="8203829bb5a23ed9474172c101dc67bf"/>
+                      <file name="price.phtml" hash="be0dae7b56bf5d95f1e6e1b076b68108"/>
+                      <file name="view.phtml" hash="832d82ed843c29d8274519083d2522de"/>
+                    </dir>
+                  </dir>
+                  <dir name="checkout">
+                    <dir name="cart">
+                      <dir name="sidebar">
+                        <file name="default.phtml" hash="7524aa8c34028aebb50e919461ed5ae2"/>
+                      </dir>
+                      <file name="sidebar-top.phtml" hash="b0ad045af0e14d40ec7bb43a984042ce"/>
+                    </dir>
+                  </dir>
+                  <dir name="page">
+                    <dir name="html">
+                      <file name="footer.phtml" hash="062b16e23cf59993f64e31ce9c27b264"/>
+                      <file name="head.phtml" hash="2466fe762d3ea24402ec58b4fafad25f"/>
+                      <file name="header.phtml" hash="6585bc90bd60247897baa01f955562a5"/>
+                      <file name="topmenu.phtml" hash="db2b3089f5cebc07220f7cd9d2c9ef8a"/>
+                    </dir>
+                  </dir>
+                  <dir name="quickcontact">
+                    <file name="form.phtml" hash="0c86a2c502e5bbb3c6d6c5bced112d65"/>
+                  </dir>
+                  <dir name="review">
+                    <dir name="helper">
+                      <file name="summary.phtml" hash="7dd4ea0c0f332d0f51ebfbacbe594d89"/>
+                      <file name="summary_short.phtml" hash="04d24c9adeb9e284aaa791dcbd732c45"/>
+                    </dir>
+                  </dir>
+                </dir>
+              </dir>
+            </dir>
+          </dir>
+        </dir>
+        <dir name="etc">
+          <dir name="modules">
+            <file name="WP_ThemeBluescale.xml" hash="ea4b55c0c5aceacc521440b1016ea5d4"/>
+          </dir>
+        </dir>
+      </dir>
+      <dir name="media">
+        <dir name="template">
+          <file name="cards.jpg" hash="dba1cd9769acb58d52a8fd86e01b2889"/>
+          <file name="custom_menu_image.gif" hash="ca47e8e7ffe689561b5d7822b2858a35"/>
+          <file name="home_image01.jpg" hash="bd6ff2cf3e114c6802e3627d6343d8fa"/>
+          <file name="home_image02.jpg" hash="0a87cb029f0b09dff7984676aab2f48d"/>
+          <file name="home_right_bt.jpg" hash="a9909e5c31c743e404247f217a2adf46"/>
+          <file name="home_right_top.jpg" hash="152cabdc8bd49397ca6c16bd64160ca0"/>
+          <file name="left_image.jpg" hash="cf4e4380040c935dfd45484d7921d068"/>
+          <file name="magento_template.jpg" hash="0dc918fdf1b46bba49fa71386a3375b5"/>
+          <file name="magento_theme.jpg" hash="759ce9a1b1874e1f331fc34527c81f3c"/>
+          <file name="options.gif" hash="e2cd0eae790497f81451c064f92cdf4b"/>
+          <file name="paypal_small.png" hash="22c3bcdf824c54b38a7941539e9ff2fb"/>
+          <dir name="social_icons">
+            <file name="audioboo.png" hash="b0269a1aafef35cfe573003ead4e743e"/>
+            <file name="bebo.png" hash="7582629efba772fc28b63af3e78b3986"/>
+            <file name="behance.png" hash="af37e0195efa79d9d5323d2b280ec68d"/>
+            <file name="blogger.png" hash="cbf8412ea12712d8fabe16dc8189caa8"/>
+            <file name="buzz.png" hash="da0268d94fa8c5b84166224742a6ac23"/>
+            <file name="creativecommons.png" hash="b39791fdb817c71000ccd2072590c351"/>
+            <file name="dailybooth.png" hash="5f293774f5095f3af6a873c367217ade"/>
+            <file name="delicious.png" hash="3f12c27192310f670d7ee67611849382"/>
+            <file name="designfloat.png" hash="de6d609a4f3ac54d6710da53308ddaed"/>
+            <file name="deviantart.png" hash="4328b9e6e203bb57feae09e96d8fca6a"/>
+            <file name="digg.png" hash="264d66545914bcdffcd74bcca62fa5f8"/>
+            <file name="dopplr.png" hash="759640fd982431895feb15d694f625d4"/>
+            <file name="dribbble.png" hash="51b6f984fc1ddd0cf9cb9a1c13eda9ad"/>
+            <file name="email.png" hash="1a8d32a2899d8d49dd534cdba9f3ec6e"/>
+            <file name="ember.png" hash="bd82b39ab3250ae8c1dd2a97d29fded2"/>
+            <file name="facebook.png" hash="af54d0b9af630cf76e40fde1951ab117"/>
+            <file name="flickr.png" hash="263ff56d7c91682958c123e08fd2416c"/>
+            <file name="forrst.png" hash="82cce3f42947d3392c038461b98339af"/>
+            <file name="friendfeed.png" hash="8e24f1e4d51844c8770fb60abc011c8c"/>
+            <file name="google.png" hash="41e45f0d155a2dc6f1a6446190187212"/>
+            <file name="gowalla.png" hash="e0f26e8a3906f95d9b256314ee0615d2"/>
+            <file name="grooveshark.png" hash="9c5ce0b5c3510fe0c44683f3d7d71173"/>
+            <file name="hyves.png" hash="55600c89fa4883fe18b007672bfd7dd4"/>
+            <file name="lastfm.png" hash="9487a0747c3e06db0df91c0d1c705934"/>
+            <file name="linkedin.png" hash="00a9c5440b119a19266d78b2014501fe"/>
+            <file name="livejournal.png" hash="06bba108eb12c036b5406d00a0ca56a7"/>
+            <file name="lockerz.png" hash="70a0835e621228c5061012728894be94"/>
+            <file name="megavideo.png" hash="cacde7684ad8ff47800e4eadbe047f79"/>
+            <file name="myspace.png" hash="9be5ee25b4623a0e784cc0c4c8893282"/>
+            <file name="piano.png" hash="428f9efa3074462d26140818714779bb"/>
+            <file name="playfire.png" hash="150ac6064bfb7fa1fe70c5b3227a23f7"/>
+            <file name="playstation.png" hash="653f741a0310d0c466e92124c2a0459b"/>
+            <file name="reddit.png" hash="77fb3e028726ce9b3873665e0ba881d4"/>
+            <file name="rss.png" hash="dad2a1f21182254fb87220ea3494845e"/>
+            <file name="skype.png" hash="b7830cc8c5d836c47d50399b9b87356f"/>
+            <file name="socialvibe.png" hash="ac0d3756495e3761881d563e70fce39b"/>
+            <file name="soundcloud.png" hash="48954dbaa323f9087aeca0f3a076e423"/>
+            <file name="spotify.png" hash="477b17443bec6043814bd91acc554d33"/>
+            <file name="steam.png" hash="72f89a084e23326a9d52bce15f8486dd"/>
+            <file name="stumbleupon.png" hash="870b95e9efef0cb08edd1c8b73909be4"/>
+            <file name="technorati.png" hash="38843b7e8a799ce18d8bb72db3010939"/>
+            <file name="tumblr.png" hash="2097391c4527c803a498c17db0855805"/>
+            <file name="twitpic.png" hash="a577b676523930c5c6ce62e17705bb36"/>
+            <file name="twitter.png" hash="2e7b1690ccf2638a091e1a67043bdfa8"/>
+            <file name="typepad.png" hash="1fd645f7e95f68612bc3b3837259f31a"/>
+            <file name="vimeo.png" hash="9dc5ec506f53967cd45b7b6db55ef3ff"/>
+            <file name="wakoopa.png" hash="8f385e6c7d6aad6ff125c487798b2e5d"/>
+            <file name="wordpress.png" hash="d1d2c360f1cb3d64abad09c07d5751c6"/>
+            <file name="xing.png" hash="dc69e861d406211d6a7fd3e03af26fe8"/>
+            <file name="yahoo.png" hash="1647b539262d371770509c36ebe4b3db"/>
+            <file name="youtube.png" hash="127d41875697f6341316c40da3ac7649"/>
+          </dir>
+        </dir>
+      </dir>
+      <dir name="skin">
+        <dir name="frontend">
+          <dir name="default">
+            <dir name="bluescale">
+              <dir name="css">
+                <file name="skin.css" hash="72749e7cfa42146c32ef520d7870da44"/>
+                <file name="slider.css" hash="66f293e4039d2ce9146ef45e9c870f6d"/>
+                <dir name="webandpeople">
+                  <dir name="custommenu">
+                    <file name="custommenu.css" hash="3a39b1d489a7b5dc1c6851ae367b2e9d"/>
+                  </dir>
+                </dir>
+              </dir>
+              <file name="favicon.ico" hash="72c7f5a0a3f015c4ff693c3aecac6d29"/>
+              <dir name="images">
+                <file name="add_btn_split.gif" hash="d91a0c8cbcaf5eaa08d66410ac3be961"/>
+                <file name="arr_btn_split.gif" hash="f1a165058b4c35393b115a5b092e369c"/>
+                <file name="b_arrow.gif" hash="133c97765ef48d6ad218f59e62086d03"/>
+                <file name="bg_blue.gif" hash="d05cd12638c4bc6cf5a7ad87dfc0cb9a"/>
+                <file name="bg_flower.jpg" hash="2fb08b3ff8ffcb44d4fd7c3612c9a7db"/>
+                <file name="bg_grey.gif" hash="7f030f9a93602bd1e74d316627abccc3"/>
+                <file name="bg_nt.gif" hash="976ebbfe2b9e78e68c64d16aa5cdd761"/>
+                <file name="bg_white.gif" hash="4d500ff8c822278b7efb3877a7d1395f"/>
+                <file name="bkg_nav2.gif" hash="2ed84ba9e819cc25a8e0555d41ead564"/>
+                <file name="bkg_rating.gif" hash="fbad926ec115746df5296d4a4df082e6"/>
+                <file name="block_head_cart.gif" hash="1fa0c5bdb7aca751ce2cc691588a33ef"/>
+                <file name="block_head_compare.gif" hash="5c71a2902f4927f53cc804dec5c3ea08"/>
+                <file name="block_head_popular.gif" hash="c7e2a0651effe9b322be3a1d3ed91cf4"/>
+                <file name="block_head_subscribe.gif" hash="7f67ae4e55c8d37798a3ba1067eeed21"/>
+                <file name="block_head_wish.gif" hash="fd0af06ad8dc552e1cb26a0e59f47994"/>
+                <file name="blue_btn_split.gif" hash="b6ae8374c5a55c4fea60f02837f5cbfb"/>
+                <file name="breadcrumbs_sp.gif" hash="5db1d1eb86a67f1387127ef8d54a8af3"/>
+                <file name="btn_remove.gif" hash="4518f67233e7630f8b8de9c704a71332"/>
+                <file name="btn_remove2.gif" hash="9220898b4d7d3b6d86a055547cc12d5d"/>
+                <file name="btn_trash.gif" hash="cb6018bf8ad4fc696fcc8415da09de4a"/>
+                <file name="button-small-split.gif" hash="85252c9e6177e5bb29d769d4d22f7fda"/>
+                <file name="comp.gif" hash="de63b2765c3abd87c79998e603975be6"/>
+                <file name="dd.gif" hash="0dcec7c85b8b98db084599fc786414ed"/>
+                <file name="em_quickshop_preview.png" hash="90a48247f2a7d201b88c8cf5ee9c3074"/>
+                <file name="email.gif" hash="c27046848a0446829b7a2b2b12f2b795"/>
+                <file name="footer_links_block_line.gif" hash="9ffb2408bcb5570603056ec825ef7a1e"/>
+                <file name="four_banners_menumar.gif" hash="133c97765ef48d6ad218f59e62086d03"/>
+                <file name="gift-message-collapse.gif" hash="1007e43eb38b6fcd73cf347cc72ca7d1"/>
+                <file name="gift-message-expand.gif" hash="b816bc0ecbbc33851068617e699997a8"/>
+                <file name="gr_arrow.gif" hash="fc9ac49b22fddc79f74a07debfe0b271"/>
+                <file name="header_links_sp.gif" hash="4533d17ac72250da52617cd5c1da0989"/>
+                <file name="home_bg.png" hash="e9d20cd6f0a1a4ec96d10bb95149f734"/>
+                <file name="i_asc_arrow.gif" hash="04ebfe8ac7ef024eb4cdb8db4c461143"/>
+                <file name="i_desc_arrow.gif" hash="25c28fa867732857788fd2cdd45510b5"/>
+                <file name="i_pager-next.gif" hash="03d75821653a1d37ef4eedda99b455e5"/>
+                <file name="i_pager-prev.gif" hash="d137387fdd2f25a939cd49bab48c1ff6"/>
+                <file name="icon_home.gif" hash="4ac5f728eae0ecda04f59d15b7bff1f2"/>
+                <file name="join_bg.gif" hash="86becbf1938eef289f94e96c59487b7c"/>
+                <file name="join_us_block_bg.gif" hash="dc4a0d9ce90498df287384dd64551261"/>
+                <file name="l_arr_btn_split.gif" hash="1130a6a052ad852a4ca3667f277e9730"/>
+                <file name="logo.gif" hash="e015fc18fd71952b4c1de9e952b3e754"/>
+                <file name="magnifier_handle.gif" hash="57e81833be17e72f080513a066fd73f2"/>
+                <file name="main_nav_sp.gif" hash="d72cfb2b5af7398dff6fd0dd80e27707"/>
+                <file name="nav_arrow.gif" hash="e5c61c3a6cc91881ecc89ac6faf41f60"/>
+                <file name="page_bg.gif" hash="d3d7776040066ae6aae61c33c175a767"/>
+                <file name="product_view.gif" hash="14fdb81a972378210eff68c447ddbb26"/>
+                <file name="r_arr_btn_split.gif" hash="74a26b54413d012282ed7fec5575be51"/>
+                <file name="search_btn.gif" hash="416afba88f46f1fcdc96f17cf7784ccb"/>
+                <dir name="slider">
+                  <file name="arr_left.png" hash="6f0edfdfb40d0874b27af882f4c273fc"/>
+                  <file name="arr_right.png" hash="df20252833d9a06a6b14e5fbb830c510"/>
+                </dir>
+                <file name="slider_btn_zoom_in.gif" hash="7008498c3f30bc6ba09deebb23c14ee5"/>
+                <file name="slider_btn_zoom_out.gif" hash="e9592ddd14c86cbf47beba003c748570"/>
+                <file name="slider_num.gif" hash="47db442971cf8e2ee4a613186f27a67d"/>
+                <file name="small_btn_split.gif" hash="673aeec769f52fa3afd7e5ff8a8a0045"/>
+                <file name="sort_asc_arrow.gif" hash="146d28ba0becce356c3e1ede269f71b3"/>
+                <file name="sort_desc_arrow.gif" hash="a202c44fc5256ac58e62f89cbb105af5"/>
+                <file name="subscribe_btn.gif" hash="26d78fe86003042276226bf5a75f8c3b"/>
+                <file name="subscribe_input.gif" hash="97c103fcbc128983a1efee044e9dbce8"/>
+                <file name="wish.gif" hash="84376b88c97c03fe5aad6b52e7628a1c"/>
+              </dir>
+              <dir name="js">
+                <file name="cycle-fade-effect.js" hash="517601b123853503ef60cf1237b1472d"/>
+                <file name="em_quickshop.js" hash="c9c19ab6ae10607be546999701f60b33"/>
+                <file name="jquery-1.5.2.min.js" hash="e85aed5c30d734f1e30646e030d7a817"/>
+                <file name="noconflict.js" hash="3179f2255b046d5f2e9a71e365287bef"/>
+                <file name="slider.js" hash="963965abd08a38ca97c41b429a409fa9"/>
+              </dir>
+              <dir name="quickcontact">
+                <dir name="css">
+                  <file name="form-contact.css" hash="353e4ae6d1c829b9000756d64caff646"/>
+                </dir>
+                <dir name="images">
+                  <file name="bg-form.jpg" hash="3362a2c545720e6d6d0046428837f113"/>
+                  <file name="btn_feedback.png" hash="6364db29ada6d49ca0d3688879ec81bb"/>
+                  <file name="btn_feedback_hover.png" hash="23eb61f6a650b2ed8c6424c2a5af8af0"/>
+                  <file name="close.jpg" hash="f6f1dfb4751bcd16c443b5aee9440880"/>
+                  <file name="close1.jpg" hash="2877fee2bb8c694ce0a13c412c3ef185"/>
+                  <file name="opc-ajax-loader.gif" hash="e805ea7eca1f34c75ba0f93780d32d38"/>
+                  <file name="submit.jpg" hash="55589899a7a6aa62dd7be7bc2b67da65"/>
+                  <file name="submit1.jpg" hash="9dc8e40a7970bedae051539aa41c025a"/>
+                </dir>
+                <dir name="js">
+                  <file name="modalwindow.js" hash="236447a5e630ce62edf7577cc21f355e"/>
+                  <file name="quickContact.js" hash="a6f651ee5dca309ef2e96c6156a60cf5"/>
+                </dir>
+              </dir>
+            </dir>
+          </dir>
+        </dir>
+      </dir>
+    </target>
+  </contents>
+  <compatible/>
+  <dependencies>
+    <required>
+      <php>
+        <min>5.2.0</min>
+        <max>6.0.0</max>
+      </php>
+    </required>
+  </dependencies>
+</package>
