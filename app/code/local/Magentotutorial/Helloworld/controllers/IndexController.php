@@ -14,7 +14,8 @@
     }
     
     public function goodbyeAction() {
-        echo 'Goodbye World!';
+        $this->loadLayout();
+    $this->renderLayout();
     } 
     
     public function paramsAction() {

@@ -1,5 +1,5 @@
 <?php
-	class Alanstormdotcom_Layoutviewer_Model_Observer extends Varien_Object{
+	class Magentotutorial_Layoutviewer_Model_Observer extends Varien_Object{
 		const FLAG_SHOW_LAYOUT 			= 'showLayout';
 		const FLAG_SHOW_LAYOUT_FORMAT 	= 'showLayoutFormat';		
 		const HTTP_HEADER_TEXT			= 'Content-Type: text/plain';
